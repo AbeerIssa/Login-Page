@@ -1,0 +1,89 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background: #1b0e0eb7;
+    background-image: url("https://img.freepik.com/vektoren-kostenlos/muede-ueberarbeitete-sekretaerin-oder-buchhalterin-die-am-laptop-in-der-naehe-von-stapel-von-ordnern-arbeitet-und-papiere-wirft-vektorillustration-fuer-stress-bei-der-arbeit-workaholic-beschaeftigt-bueroangestellter-konzept_74855-13264.jpg?size=626&ext=jpg&ga=GA1.2.1977021904.1627344000");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+.box {
+    
+    width: 400px;
+    padding: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #363636d5;
+    text-align: center;
+    border-radius: 60px;
+   
+}
+
+h1 {
+    color: rgb(250, 249, 249);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input[type=email] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 9px auto;
+    text-align: center;
+    border: 2px solid #0482f7;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transform: 0.25s;
+}
+
+input[type=password] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 9px auto;
+    text-align: center;
+    border: 2px solid #0482f7;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transform: 0.25s;
+}
+
+label {
+    padding: 9px;
+    display: inline-block;
+    color: white;
+   
+}
+
+ input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #d203fc;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transform: 0.25s;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background:  #d203fc;
+}
+
+
+
+
+
